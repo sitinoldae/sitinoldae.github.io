@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.min.js"></script>
+
+<script>
+
+  $(document).ready(function() {
+
+    $('.slider').slick({
+
+      dots: true,
+
+      infinite: true,
+
+      speed: 500,
+
+      slidesToShow: 1,
+
+      slidesToScroll: 1
+
+    });
+
+  });
+
+</script>
 <link rel="stylesheet" href="styles.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sitinoldae - Android App Development & Cybersecurity Consultancy</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css" >
   <style>
     /* Add CSS styles here for color and design customization */
   </style>
 </head>
 
 <body>
+  <div class="slider">
+
+    <div>
+
+      <img src="image1.jpg" alt="Image 1">
+
+    </div>
+
+    <div>
+
+      <img src="image2.jpg" alt="Image 2">
+
+    </div>
+
+    <div>
+
+      <img src="image3.jpg" alt="Image 3">
+
+    </div>
+
+  </div>
   <header>
     <nav>
       <ul>
