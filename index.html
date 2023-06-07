@@ -4,6 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+        /* Define the background color for the button */
+        .whatsapp-button {
+            background-color: #25D366;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        /* Add a hover effect */
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+            cursor: pointer;
+        }
+    </style>
   <title>Sitinoldae - Android App Development & Cybersecurity Consultancy</title>
   <link rel="stylesheet" href="styles.css" >
   <style>
@@ -11,12 +31,10 @@
   </style>
 </head>
 <body>
-   <button onclick="launchWhatsApp()">Launch WhatsApp Business</button>
-    <script>
-        function launchWhatsApp() {
-            window.location.href = "https://api.whatsapp.com/send?phone=+919634677889";
-        }
-    </script>
+    <a href="https://api.whatsapp.com/send?phone=+919634677889" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp Icon">
+        <button class="whatsapp-button">Show on Whatsapp</button>
+    </a>
   <header>
     <nav>
       <ul>
