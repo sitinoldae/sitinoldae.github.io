@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+
+body, h1, h2, p, ul, li {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+/* Set background color and text color */
+
+body {
+
+  background-color: #f5f5f5;
+
+  color: #333;
+
+  font-family: Arial, sans-serif;
+
+}
+
+/* Add some spacing */
+
+.container {
+
+  margin: 2rem auto;
+
+  max-width: 800px;
+
+  padding: 0 1rem;
+
+}
+
+/* Style the header and navigation */
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 1rem;
+
+}
+
+nav ul {
+
+  list-style-type: none;
+
+}
+
+nav ul li {
+
+  display: inline;
+
+  margin-right: 1rem;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+}
+
+nav a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* Style the main sections */
+
+h1, h2 {
+
+  margin-bottom: 1rem;
+
+}
+
+section {
+
+  background-color: #fff;
+
+  padding: 2rem;
+
+  margin-bottom: 2rem;
+
+}
+
+/* Style the contact section */
+
+section#contact {
+
+  background-color: #f5f5f5;
+
+}
+
+section#contact p {
+
+  margin-bottom: 1rem;
+
+}
+
+/* Style the footer */
+
+footer {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 1rem;
+
+  text-align: center;
+
+}
+
+/* Add some space around the company logo in the footer */
+
+footer img {
+
+  margin: 1rem auto;
+
+  display: block;
+
+}
+
